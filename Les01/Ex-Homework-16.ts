@@ -157,7 +157,7 @@ class Animal {
     constructor(name: string) {
         this.name = name;
     }
-    speak(){
+    speak() {
         console.log(`${this.name} makes a noise.`);
     }
 }
@@ -219,7 +219,7 @@ class Rectangle extends Shape {
         super();
     }
 
-    get area(): number {
+    area(): number {
         return this.width * this.height; // Triển khai phương thức area
     }
 }
@@ -231,8 +231,13 @@ interface IAnimal {
     name: string;
     speak(): void; // Phương thức không có thân hàm
 }
+// Thêm interface Vehicle vào trước class Car:
+interface Vehicle {
+    name: string;
+    move(): void;
+}
 class Car implements Vehicle {
-    constructor(public name: string) {}
+    constructor(public name: string) { }
     move(): void {
         console.log(`${this.name} is moving.`);
     }
@@ -242,7 +247,7 @@ console.log('--------------------------------------');
 // Bai Tap
 //1. Tao class product co id, name, price, getInfo()
 class Product {
-    constructor(public id: number, public name: string, public price: number) {}
+    constructor(public id: number, public name: string, public price: number) { }
 
     getInfo(): string {
         return `Product ID: ${this.id}, Name: ${this.name}, Price: $${this.price}`;
@@ -254,7 +259,7 @@ console.log('--------------------------------------');
 
 //2. tao class Employee ke thua person, them thuoc tinh salary.
 class Person11 {
-    constructor(public name: string, public age: number) {}
+    constructor(public name: string, public age: number) { }
 
     greet(): string {
         return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
@@ -276,19 +281,20 @@ console.log('--------------------------------------');
 // 3. Tao abstract class shape va cac lop con Circle va Rectangle
 
 //4. tao interface Animal va cac lop cat implements tu do
-interface Animal {
+
+interface Animal1 {
     name: string;
     sound(): string; // Phương thức không có thân hàm
 }
-class Cat1 implements Animal {
-    constructor(public name: string) {}
+class Cat1 implements Animal1 {
+    constructor(public name: string) { }
 
     sound(): string {
         return `${this.name} says meow!`;
     }
 }
-class Dog1 implements Animal {
-    constructor(public name: string) {}
+class Dog1 implements Animal1 {
+    constructor(public name: string) { }
 
     sound(): string {
         return `${this.name} says woof!`;
