@@ -20,19 +20,19 @@ export default function Func_Hvt_1() {
   )
   // ham co rest parameter
   const sum = (...nums: number[]): number => {
-    return nums.reduce((sum, nums) => sum + nums, 0);
+    return nums.reduce((sum, nums) => sum + nums, 0); // bắt đầu từ 0 để tránh cộng cho 0
   }
   // hàm trừ
   const sub = (...nums: number[]): number => {
-    return nums.reduce((sub, nums) => sub - nums, 0);
+    return nums.reduce((sub, nums) => sub - nums, 0); // bắt đầu từ 0 để tránh trừ cho 0
   }
   // hàm chia
   const div = (...nums: number[]): number => {
-    return nums.reduce((div, nums) => div / nums, 1);
+    return nums.reduce((div, nums) => div / nums, 1); // bắt đầu từ 1 để tránh chia cho 0
   }
   // hàm cộng
   const mul = (...nums: number[]): number => {
-    return nums.reduce((mul, nums) => mul * nums, 1);
+    return nums.reduce((mul, nums) => mul * nums, 1); // bắt đầu từ 1 để tránh nhân cho 0
   }
   return (
     <div>
