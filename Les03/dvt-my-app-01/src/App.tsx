@@ -31,6 +31,7 @@ function App() {
     name: string;
     age: number;
   }
+  //
   //Muc data
   const students: IStudent[] = [
     { id: 1, name: 'Nguyen Thanh Tung', age: 31 },
@@ -44,6 +45,7 @@ function App() {
     { id: 9, name: 'Hoang Gia Huy', age: 21 },
     { id: 10, name: 'Nguyen Van Nam', age: 23 },
   ];
+  
   return (
     <div className="container h-100">
       <div>
