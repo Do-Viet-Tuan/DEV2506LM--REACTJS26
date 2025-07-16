@@ -1,13 +1,19 @@
 import React from 'react'
 import Student from './Student'
+import IStudent from './IStudent';
 
-export default function StudentList(props:any[]) {
-    const elementStudent = props.students.map((student, index) => {
+
+interface StudentListProps {
+  students: IStudent[];
+}
+
+export default function StudentList({ students }: StudentListProps) {
+    const elementStudent = students.map((student, index) => {
         return <Student student={student} key={index} />
     })
   return (
     <div>
-        <table>
+        <table className='table table-bordered'>
             <thead>
                 <tr>
                     <th>ID</th>

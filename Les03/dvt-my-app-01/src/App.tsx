@@ -15,6 +15,7 @@ import FunComp3 from './components/FunComp3';
 import FunListMenber from './components/FunListMenber';
 import ClassMember from './components/ClassMember';
 import StudentList from './components/StudentList';
+import IStudent from './components/IStudent';
 
 function App() {
   //
@@ -31,10 +32,17 @@ function App() {
     age: number;
   }
   //Muc data
-  const students: Student[] = [
-    { id: 1, name: 'Nguyen Van A', age: 20 },
-    { id: 2, name: 'Tran Thi B', age: 22 },
-    { id: 3, name: 'Le Van C', age: 21 }
+  const students: IStudent[] = [
+    { id: 1, name: 'Nguyen Thanh Tung', age: 31 },
+    { id: 2, name: 'Nguyen Tung Thanh', age: 22 },
+    { id: 3, name: 'Thanh Tung Nguyen', age: 21 },
+    { id: 4, name: 'Le Thi Hoa', age: 23 },
+    { id: 5, name: 'Pham Van Minh', age: 24 },
+    { id: 6, name: 'Nguyen Thi Bich', age: 22 },
+    { id: 7, name: 'Tran Van Khoa', age: 25 },
+    { id: 8, name: 'Doan Minh Chau', age: 20 },
+    { id: 9, name: 'Hoang Gia Huy', age: 21 },
+    { id: 10, name: 'Nguyen Van Nam', age: 23 },
   ];
   return (
     <div className="container h-100">
@@ -89,6 +97,7 @@ function App() {
       <ClassMember />
       <hr />
       <StudentList students={students} />
+      <hr />
     </div>
   );
 }
