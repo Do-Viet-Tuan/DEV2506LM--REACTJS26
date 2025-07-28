@@ -38,7 +38,7 @@ function App() {
           <div className='col-12 col-md border'>
             <Control />
             <hr />
-            <StudentList />
+            {/* <StudentList /> */}
             <StudentList1 students={students} />
           </div>
           <div className='col-md-5 col-12 border ms-0 mt-2 ms-sm-2 mt-sm-0' id='frmForm'>
