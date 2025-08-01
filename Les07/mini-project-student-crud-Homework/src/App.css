@@ -37,11 +37,11 @@
   }
 }
 
-/* CSS cho toggle form giống như jQuery toggle */
-#frmForm {
-  transition: all 0.1s ease-in-out;
+/* CSS để ẩn/hiện form */
+.is-form {
+  display: none !important;
 }
 
-#frmForm.d-none {
-  display: none !important;
+.is-form.show {
+  display: block !important;
 }
