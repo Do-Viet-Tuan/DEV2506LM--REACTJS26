@@ -14,6 +14,7 @@ export default function Search() {
             setSearchParams({});
         }
     }
+    
   return (
     <div>
         <div className='wrap'>
