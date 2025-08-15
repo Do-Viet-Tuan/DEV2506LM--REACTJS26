@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "cid": 2,
+      "name": "Sản phẩm B",
+      "price": 200000,
+      "status": "Hết hàng"
+    },
+    {
+      "id": "1",
+      "cid": "11qq111",
+      "name": "áas111",
+      "price": "111111",
+      "status": "Available"
+    },
+    {
+      "id": "0",
+      "cid": "",
+      "name": "",
+      "price": "",
+      "status": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Điện tử"
+    },
+    {
+      "id": 2,
+      "name": "Gia dụng"
+    }
+  ]
+}
