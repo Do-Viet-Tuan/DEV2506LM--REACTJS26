@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header1';
 import BannerHome from './components/BannerHome';
 import MenuHome from './components/MenuHome';
 import ProductHome from './components/ProductHome';
