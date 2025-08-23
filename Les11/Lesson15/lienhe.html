@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+</head>
+
+<body>
+    <!-- Begin Header -->
+    <header>
+        <div class="container container-md">
+            <div class="d-flex justify-content-between">
+                <div id="header-logo">
+                    <img class="w-100" src="imgs/logo.png" alt="logo">
+                </div>
+                <div id="header-nav">
+                    <nav class="navbar navbar-expand-md">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Trang
+                                            chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Giới
+                                            thiệu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Sản
+                                            phẩm</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tin
+                                            tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Đối
+                                            tác</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Liên
+                                            hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header -->
+    <!--Begin Banner-->
+    <section id="banner">
+        <div class="img-banner">
+            <img class="w-100" src="imgs/lienhe/LIENHE-bg.jpg" alt="LIENHE-bg">
+        </div>
+        <div class="box-banner">
+            <div class="logo-banner">
+                <img class="w-100" src="imgs/lienhe/LIENHE-logo.png" alt="LIENHE-logo">
+            </div>
+            <h2 class="title-banner">Lien He</h2>
+        </div>
+    </section>
+    <!--End Banner-->
+
+    <!--Begin Contact-->
+    <section id="contact">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="col-6 contact-left">
+                        <div class="img-contact">
+                            <img src="imgs/lienhe/LIENHE-form.jpg" alt="LIENHE-form">
+                        </div>
+                    </div>
+                    <div class="col-6 contact-right">
+                        <form action="" method="post" enctype="multipart/form-data" id="form">
+                            <h3>Lien he voi chung toi</h3>
+                            <div class="input-group">
+                                <p class="err err-blank"> Ho ten khong duoc de trong</p>
+                                <input type="text" name="name" id="name" placeholder="Ho ten">
+                            </div>
+
+                            <div class="input-group">
+                                <p class="err err-blank"> Email khong duoc de trong</p>
+                                <p class="err err-email"> Email khong dung dinh dang</p>
+                                <input type="text" name="email" id="email" placeholder="Email">
+                            </div>
+
+                            <div class="input-group">
+                                <p class="err err-blank"> SDT khong duoc de trong</p>
+                                <p class="err err-phone"> SDT khong dung dinh dang</p>
+                                <input type="text" name="phone" id="phone" placeholder="so dien thoai">
+                            </div>
+
+                            <div class="input-group">
+                                <p class="err err-blank"> Noi dung khong duoc de trong</p>
+                                <input type="text" name="content" id="content" placeholder="noi dung">
+                            </div>
+
+                            <input type="submit" name="submit" id="submit" value="Gui">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End contact-->
+    <!-- Begin Footer -->
+    <footer>
+        <div class="container">
+            <div class="d-md-flex justify-content-between">
+                <div class="mb-4 mb-md-0" id="footer-info">
+                    <h4>Thông tin chung</h4>
+                    <h5>Công ty hoàng hoan</h5>
+                    <p><span><i class="fa-solid fa-phone"></i></span>
+                        0999.999.999</p>
+                    <p><span><i class="fa-solid fa-envelope"></i></span>
+                        cskh@hoanghoan.vn</p>
+                    <address>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        Số 1 Nguyễn Trãi, Thanh Xuân, Hà Nội
+                    </address>
+                </div>
+                <div class="mb-4 mb-md-0" id="footer-about-us">
+                    <h4>Về chúng tôi</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Sản phẩm</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Đối tác</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mb-4 mb-md-0" id="footer-connect">
+                    <h4>Kết nối với chúng tôi</h4>
+                    <div class="d-flex">
+                        <div class="footer-icon icon-facebook">
+                            <a href="#">
+                                <img class="w-100" src="imgs/logo-footer/icon-facebook.png" alt="icon-facebook">
+                            </a>
+                        </div>
+                        <div class="footer-icon icon-zalo">
+                            <a href="#">
+                                <img class="w-100" src="imgs/logo-footer/icon-zalo.png" alt="icon-zalo">
+                            </a>
+                        </div>
+                        <div class="footer-icon icon-mail d-flex">
+                            <a href="#" class="m-auto">
+                                <img class="w-100" src="imgs/logo-footer/icon-mail.png" alt="icon-mail">
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="icon-dathongbao">
+                            <img class="w-100" src="imgs/logo-footer/icon-dathongbao.png" alt="icon-dathongbao">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="js/lienhe.js"></script>
+</body>
+
+</html>
