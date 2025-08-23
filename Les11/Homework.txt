@@ -1,0 +1,4 @@
+- [x] render sản phẩm nếu chưa xong  
+- [ ] render các dữ liệu có thể lấy từ [API](http://apixm.devmaster.vn/swagger/index.html)  
+- [ ] Xây dựng thêm phần giỏ hàng - xử lý mua bán  
+- [X] sử dụng link/navlink thay thế các thẻ a  
