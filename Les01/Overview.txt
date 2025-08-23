@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 1. ReactJS Basic (2b)
 2. ReactJS Hook
 3. Redux
+=======
+1. ReactJS Basic (2b)
+2. ReactJS Hook
+3. Redux
+>>>>>>> 20149b5d56bd2002aa14f31c2c8d2788cbcf4d53
 4. API (axios) 
