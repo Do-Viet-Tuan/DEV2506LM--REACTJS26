@@ -1,0 +1,27 @@
+1. CSS
+1.1. Cách sử dụng - 3 Cách
+1.2. Cú pháp tương tác trong CSS 
+    - theo tên thẻ - tên_thẻ{ thuộc_tính_css: giá_trị_thuộc_tính_CSS;.... }
+    - theo class của thẻ - .tên_class{thuộc_tính_css=giá_trị_thuộc_tính_css;...}
+    - theo id của thẻ - #tên_id{thuộc_tính_css= giá_trị_thuộc_tính;..}
+    - theo tên thuộc tính của thẻ - [tên_thuộc_tính= "giá_trị_thuộc_tính"]{thuộc_tính_css= giá_trị_thuộc_tính;...}
+        + thẻ input - thuộc tính -type => [type="text"]
+1.3. Mức độ ưu tiên trong CSS
+    - CSS viết sau sẽ được sử dụng
+    - !important -> tên_id -> tên_thuộc_tính -> tên_class -> tên thẻ (trong cùng 1 cấp độ)
+1.4. Các thuộc tính của CSS
+- background
+- border
+- cursor
+- display: none/block/flex/float
+- justify-content: space-between/ evenly/space-around/center/start/end
+- font
+- text
+- height/witdh/ min-height/min-witdh/max-height/max-witdh
+- left/right/top/bottom => position: relative/absolue/fixed;
+- list-style:none (ul/ol/li)
+- line-height
+- padding/margin: 
+1.5. Đơn vị
+- px/rem/em/ %
+
