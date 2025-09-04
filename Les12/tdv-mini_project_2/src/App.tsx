@@ -47,6 +47,8 @@ function App() {
     price: 0,
     total: 0,
   }])
+
+  const [cartTotal, setCartTotal] = useState(0);
   // hàm lấy dữ liệu từ API
   const getProduct = async () => {
     var respone = await axios_devmaster.get("Products");
@@ -104,10 +106,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header1></Header1>
+        <Header1 />
         <Routes>
           <Route path='/' element={<Home products={products} onAdd={handleAddToCart}></Home>}></Route>
           <Route path='/lienhe' element={<Contact></Contact>}></Route>
+          {/* <Route path='/cart' element={<Cart listCart={listCart}></Cart>} /> */}
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

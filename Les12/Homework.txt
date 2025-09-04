@@ -1,4 +1,11 @@
-- [x] render sản phẩm nếu chưa xong  
-- [ ] render các dữ liệu có thể lấy từ [API](http://apixm.devmaster.vn/swagger/index.html)  
-- [ ] Xây dựng thêm phần giỏ hàng - xử lý mua bán  
-- [X] sử dụng link/navlink thay thế các thẻ a  
+1. render sang trang Cart
+
+2. hiển thị số lượng sản phẩm trong giỏ hàng
+
+3. trong cart xử lý thêm số lượng sản phẩm
+
+4. xử lý thêm: Nếu có sản phẩm rồi thì sẽ tăng số lượng sản phẩm
+
+5. Tạo thông báo - có thể tìm hiểu thư viện
+
+6. Hoàn thành render các trang còn lại
